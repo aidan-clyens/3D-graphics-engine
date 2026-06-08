@@ -1,7 +1,7 @@
 #pragma once 
 
 // Includes
-#include "Engine/ECS/Mesh.h"
+#include "Mesh.h"
 
 // Defines
 #define CUBE_NUM_FACES          6

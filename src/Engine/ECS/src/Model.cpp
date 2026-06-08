@@ -1,5 +1,5 @@
-#include "Engine/ECS/Model.h"
-#include "Engine/ECS/Mesh.h"
+#include "Model.h"
+#include "Mesh.h"
 
 /* Model
  */

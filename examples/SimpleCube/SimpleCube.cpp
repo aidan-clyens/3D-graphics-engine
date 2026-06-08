@@ -6,7 +6,7 @@
 #include "Engine/Texture2D.h"
 #include "Engine/TextureCubeMap.h"
 #include "Engine/Light.h"
-#include "Engine/ECS/Mesh.h"
+#include "Mesh.h"
 #include "Engine/utils/Timer.h"
 
 #include <iostream>

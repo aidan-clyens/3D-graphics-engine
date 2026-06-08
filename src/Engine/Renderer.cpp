@@ -1,6 +1,6 @@
 #include "Engine/Renderer.h"
 
-#include "Engine/ECS/Mesh.h"
+#include "Mesh.h"
 #include "Engine/Camera.h"
 #include "Engine/Shader.h"
 #include "Engine/DebugWindow.h"

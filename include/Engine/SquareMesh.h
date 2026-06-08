@@ -1,7 +1,7 @@
 #pragma once 
 
 // Includes
-#include "Engine/ECS/Mesh.h"
+#include "Mesh.h"
 
 // Defines
 #define SQUARE_NUM_VERTICES     6

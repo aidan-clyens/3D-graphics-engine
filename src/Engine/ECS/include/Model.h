@@ -2,7 +2,7 @@
 
 // Includes
 #include "Engine/utils/types.h"
-#include "Engine/ECS/ECS.h"
+#include "ECS.h"
 
 #include <string>
 #include <vector>

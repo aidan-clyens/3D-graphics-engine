@@ -4,8 +4,8 @@
 #include "Engine/Shader.h"
 #include "Engine/TextureCubeMap.h"
 #include "Engine/Light.h"
-#include "Engine/ECS/Mesh.h"
-#include "Engine/ECS/Model.h"
+#include "Mesh.h"
+#include "Model.h"
 #include "Engine/utils/Timer.h"
 
 #include <iostream>

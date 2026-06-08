@@ -2,7 +2,7 @@
 
 // Includes
 #include "Engine/utils/types.h"
-#include "Engine/ECS/Mesh.h"
+#include "Mesh.h"
 
 #include <vector>
 

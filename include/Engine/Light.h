@@ -1,7 +1,7 @@
 #pragma once
 
 // Includes
-#include "Engine/ECS/ECS.h"
+#include "ECS.h"
 #include "Engine/utils/types.h"
 
 // Enums

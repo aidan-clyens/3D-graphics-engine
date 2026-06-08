@@ -1,7 +1,7 @@
 #pragma once
 
 // Includes
-#include "Engine/ECS/Rigidbody.h"
+#include "Rigidbody.h"
 #include "Engine/Object3D.h"
 #include "Engine/Camera.h"
 

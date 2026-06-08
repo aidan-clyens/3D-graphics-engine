@@ -1,4 +1,4 @@
-#include "Engine/ECS/Rigidbody.h"
+#include "Rigidbody.h"
 #include "Engine/Physics.h"
 
 

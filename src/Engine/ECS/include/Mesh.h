@@ -8,8 +8,8 @@
 #include <algorithm>
 #include <iterator>
 
+#include "ECS.h"
 #include "Engine/utils/types.h"
-#include "Engine/ECS/ECS.h"
 #include "Engine/Shader.h"
 #include "Engine/Texture.h"
 

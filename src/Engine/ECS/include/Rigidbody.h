@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Engine/ECS/ECS.h"
+#include "ECS.h"
 #include "Engine/Object3D.h"
 
 #include "btBulletDynamicsCommon.h"

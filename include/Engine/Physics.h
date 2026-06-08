@@ -1,9 +1,9 @@
 #pragma once
 
 // Includes
+#include "ECS.h"
+#include "Rigidbody.h"
 #include "Engine/utils/types.h"
-#include "Engine/ECS/ECS.h"
-#include "Engine/ECS/Rigidbody.h"
 #include "Engine/Object3D.h"
 
 #include "btBulletDynamicsCommon.h"

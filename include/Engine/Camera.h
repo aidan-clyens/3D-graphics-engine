@@ -3,7 +3,7 @@
 // Includes
 #include <glm/gtc/matrix_transform.hpp>
 
-#include "Engine/ECS/ECS.h"
+#include "ECS.h"
 #include "Engine/utils/types.h"
 
 

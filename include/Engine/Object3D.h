@@ -2,8 +2,8 @@
 
 // Includes
 #include "Engine/utils/types.h"
-#include "Engine/ECS/ECS.h"
-#include "Engine/ECS/Mesh.h"
+#include "ECS.h"
+#include "Mesh.h"
 #include "Engine/Light.h"
 
 #include <string>

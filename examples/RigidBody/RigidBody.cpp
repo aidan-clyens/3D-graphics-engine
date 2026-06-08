@@ -3,8 +3,8 @@
 #include "Engine/CubeMesh.h"
 #include "Engine/Shader.h"
 #include "Engine/Texture2D.h"
-#include "Engine/ECS/Mesh.h"
-#include "Engine/ECS/Rigidbody.h"
+#include "Mesh.h"
+#include "Rigidbody.h"
 
 #include <iostream>
 

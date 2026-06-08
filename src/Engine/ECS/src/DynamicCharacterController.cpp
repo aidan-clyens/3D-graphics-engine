@@ -1,4 +1,4 @@
-#include "Engine/ECS/DynamicCharacterController.h"
+#include "DynamicCharacterController.h"
 #include "Engine/Physics.h"
 
 #include <iostream>

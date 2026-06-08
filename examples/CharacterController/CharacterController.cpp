@@ -3,9 +3,9 @@
 #include "Engine/CubeMesh.h"
 #include "Engine/Shader.h"
 #include "Engine/Texture2D.h"
-#include "Engine/ECS/Mesh.h"
-#include "Engine/ECS/Rigidbody.h"
-#include "Engine/ECS/DynamicCharacterController.h"
+#include "Mesh.h"
+#include "Rigidbody.h"
+#include "DynamicCharacterController.h"
 
 #include <iostream>
 
