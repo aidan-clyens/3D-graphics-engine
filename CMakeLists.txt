@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(3DEngine
+project(3Dgraphicsengine
     VERSION 3.0.0
     LANGUAGES CXX
 )
@@ -98,3 +98,28 @@ install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/${PROJECT_NAME}-config-version.cmake
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}
 )
+
+# CPack packaging configuration
+set(CPACK_PACKAGE_NAME "lib${PROJECT_NAME}")
+set(CPACK_PACKAGE_VENDOR "Aidan Clyens")
+set(CPACK_PACKAGE_CONTACT "Aidan Clyens <aidanclyens@gmail.com>")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "3D Graphics Engine C++ SDK")
+set(CPACK_PACKAGE_VERSION "${PROJECT_VERSION}")
+set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
+set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
+set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
+set(CPACK_PACKAGE_RELOCATABLE ON)
+set(CPACK_PACKAGING_INSTALL_PREFIX "/usr")
+
+# Debian/Ubuntu packaging configuration
+if(UNIX AND NOT APPLE)
+    set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS ON)
+    set(CPACK_DEBIAN_PACKAGE_NAME "lib${PROJECT_NAME}")
+    set(CPACK_DEBIAN_FILE_NAME "DEB-DEFAULT")
+    set(CPACK_DEBIAN_PACKAGE_VERSION ${PROJECT_VERSION})
+    set(CPACK_DEBIAN_PACKAGE_RELEASE "1")
+    set(CPACK_DEBIAN_PACKAGE_LICENSE "MIT")
+    set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "https://github.com/aidan-clyens/3D-graphics-engine")
+endif()
+
+include(CPack)
