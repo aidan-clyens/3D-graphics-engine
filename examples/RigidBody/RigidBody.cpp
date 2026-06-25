@@ -82,6 +82,9 @@ class Game : public Engine {
 /* main
  */
 int main(int argc, char **argv) {
+    (void)argc; // Unused
+    (void)argv; // Unused
+
     Game game;
 
     if (!game.init()) {
