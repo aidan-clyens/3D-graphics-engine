@@ -16,6 +16,8 @@ phases:
   pre_build:
     on-failure: ABORT
     commands:
+      - echo "Updating Git submodules..."
+      - git submodule update --init --recursive
       - echo "Configuring CMake (${CONFIGURE_PRESET})..."
       - cmake --preset ${CONFIGURE_PRESET}
 
