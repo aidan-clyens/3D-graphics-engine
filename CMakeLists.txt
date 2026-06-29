@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.25)
 
-project(3Dgraphicsengine
+project(3dgraphicsengine
     VERSION 3.0.0
     LANGUAGES CXX
 )
